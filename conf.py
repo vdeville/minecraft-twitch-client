@@ -1,0 +1,6 @@
+SYMBOL_COMMAND = '+'
+LATEST_LOG = '/Users/valentin/Library/Application Support/minecraft/logs/latest.log'
+MINECRAFT_PSEUDO = 'TooManyRedirect'
+TWITCH_NICK = 'ValentinDeville'
+TWITCH_OAUTH = 'oauth:'
+TWITCH_CHANNEL = 'warths'
