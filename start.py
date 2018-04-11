@@ -8,9 +8,8 @@ import conf
 
 def parse_line(string):
     string = string.replace('\n', '')
-    split = string.split(conf.SYMBOL_COMMAND)
-    del split[0]
-    message = ''.join(split)
+    start = string.find(conf.SYMBOL_COMMAND) + 1
+    message = string[start:]
     return message
 
 
